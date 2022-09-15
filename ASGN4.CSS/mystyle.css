@@ -1,0 +1,108 @@
+/*global*/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(12, 12, 3);
+    color:  rgb(121, 147, 135);
+ }
+ p{ 
+    text-align: left;
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(135, 160, 149);
+}
+.my-photo{
+    width: 250px;
+    border-radius: 50%;
+    border: 20px ridge rgb(151, 137, 133);
+    margin-left: auto;
+    margin-right: auto;
+}
+/*utilities*/
+.btn{
+    display:block;
+    background-color: #222222;
+    color: rgb(13, 147, 85);
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px; 
+}
+.btn-small{
+    width: 150px;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    border: 15px ridge  rgb(151, 137, 133);
+    height: auto;
+   
+}
+
+.container{ 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    padding: 10%;
+    height: fit-content;
+    border: 20px ridge rgb(151, 137, 133); ;
+}
+/*header*/
+header.site-header{
+    
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;
+}
+
+/*menu*/
+
+/*main*/
+main.site-main{
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.title-greeting{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(118, 166, 144);
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(98, 145, 117);
+    font-size: 30px;
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: white;
+}
+.fa-facebook{
+    font-size: 30px ;
+    color: blue;
+}
+.fa-youtube{
+    font-size: 30px;
+    color: red;
+}
+.fa-researchgate{
+    font-size: 30px;
+    color: darkorchid;
+}
+.menu-social{ 
+    text-align: center;
+    padding-top: 5%;
+}
